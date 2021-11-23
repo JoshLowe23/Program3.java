@@ -1,0 +1,34 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+/**
+ *
+ * Josh Lowe
+ * Program Exam 3
+ *
+ * 
+ */
+public class Program3
+{
+
+    public static void main(String args[]) throws FileNotFoundException {
+ 
+        File text = new File("command-line arguments");
+        Scanner sc = new Scanner(text);
+        int lines = 1;
+        while(sc.hasNextLine()){
+           // String line = sc.nextLine();
+            String s = sc.nextLine();
+        } 
+        
+        String s = new String();
+   StringBuilder word = new StringBuilder("");
+   for (int i = 0; i < s.length(); ++i) {
+        word.append(Character.toLowerCase(s.charAt(i)));
+   // return word.toString();
+      
+ System.out.println(s.toLowerCase());
+}
+}
+}
